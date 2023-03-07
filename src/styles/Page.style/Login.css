@@ -1,0 +1,18 @@
+.box-login {
+    background: url("/src/Assets/bg-login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.judul-login {
+    text-align: center;
+    margin-top: auto;
+    color: #212529;
+    margin-top: 100px;
+}
+
+.form-login {
+    width: 30%;
+    margin: 0 auto;
+}

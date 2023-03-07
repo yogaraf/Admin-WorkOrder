@@ -1,0 +1,8 @@
+@import "./Components.style/Landing.css";
+@import "./Page.style/History.css";
+@import "./Page.style/Orderan.css";
+@import "./Page.style/Login.css";
+
+body {
+    background-color: #D9D9D9;
+}

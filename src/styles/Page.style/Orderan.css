@@ -1,0 +1,64 @@
+/* .judul-order {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -150px;
+}
+
+.box-orderan {
+    border: 4px solid;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 60px;
+    margin-top: 200px;
+}
+
+.content-orderan {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 25px;
+    column-gap: 10px;
+}
+
+.content-orderan p {
+    margin-top: -20px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+} */
+
+.judul-orderan {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -75px;
+}
+
+.table-orderan {
+  width: 80%;
+  display: grid;
+  /* border: 1px solid; */
+  margin: 0 auto;
+  margin-top: 100px;
+  table-layout: auto;
+}
+
+.table-orderan tr {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.table-orderan th {
+    text-align: center;
+    border: 4px solid black;
+}
+
+.table-orderan td {
+    text-align: center;
+    border: 4px solid black;
+    padding: 10px;
+}
+
+.orderan-bg {
+    background: url("/src/Assets/bg-login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 105vh;
+}
