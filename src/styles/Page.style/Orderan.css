@@ -26,12 +26,6 @@
     text-align: center;
 } */
 
-.judul-orderan {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: -75px;
-}
-
 .table-orderan {
   width: 80%;
   display: grid;
@@ -56,9 +50,9 @@
     padding: 10px;
 }
 
-.orderan-bg {
+.orderskuy {
     background: url("/src/Assets/bg-login.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 105vh;
+    height: auto;
 }
