@@ -1,17 +1,16 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import Navigation from '../Components/Navigation'
 
 export default function LoginPage() {
   return (
-    <div className="box-login">
-         <Navigation />
-        <div className="judul-login">
-            <h1>Login</h1>
-        </div>
-        <div className="form-login">
-            <Form>
+    <div className="box-login d-flex align-items-center position-relative">
+        <div style={{zIndex:-5}} className="body-ku card shadow container-fluid position-absolute start-0 end-0 top-0 bottom-0 bg-light"></div>
+        <div className="form-login position-relative p-3">
+            <div className="judul-login d-flex">
+                <h1 className='text-center'>Login</h1>
+            </div>
+            <Form style={{zIndex:2}} className="position-absolutes">
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>
                 <Form.Control type="email" placeholder="Enter email" />
@@ -28,6 +27,7 @@ export default function LoginPage() {
                 Submit
                 </Button>
             </Form>
+            <div style={{zIndex:-1}} className="card container-fluid position-absolute start-0 end-0 top-0 bottom-0 bg-light opacity-25"></div>
         </div>
     </div>
 
