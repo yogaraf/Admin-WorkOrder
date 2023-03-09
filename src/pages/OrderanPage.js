@@ -9,11 +9,11 @@ export default function OrderanPage() {
     <Navigation />
     <div className='orderan-bg'>
       <div style={{zIndex:-2}} class="orderskuy card position-absolute top-0 bottom-0 start-0 end-0 opacity-75 bg-light"></div>
-        <div className="table-orderan position-relative p-4">
-          <div className='judul-orderan'> 
+      <div className='judul-orderan'> 
             <h1 className="text-center">Orderan</h1>
           </div>
-          <div style={{zIndex:-1}} class="orderkuy card position-absolute top-0 bottom-0 start-0 end-0 opacity-50 bg-light"></div>
+        <div className="table-orderan position-relative p-4">
+          {/* <div style={{zIndex:-1}} class="orderkuy card position-absolute top-0 bottom-0 start-0 end-0 opacity-50 bg-light"></div> */}
             <table>
                 <tr>
                     <th>No</th>
@@ -41,8 +41,8 @@ export default function OrderanPage() {
                         <Dropdown.Divider />
                         <Dropdown.Item href="#">Separated link</Dropdown.Item>
                       </DropdownButton>
-
                     </td>
+                    
                 </tr>
             </table>
         </div>
